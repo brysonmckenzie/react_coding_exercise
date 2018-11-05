@@ -10,7 +10,7 @@ const GifItem = (image) => {
 
   return (
     <div className="container">
-      <img style={style} src={image.gif.images.downsized.url} />
+      <img style={style} src={image.gif.images.downsized.url } alt="giphy" />
     </div>
   )
 };
